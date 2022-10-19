@@ -19,7 +19,7 @@ body {
     font-size: 16px;
     line-height: 1.7;
     color: #777;
-    padding: 30px
+    padding: 2rem;
 }
 
 .header {
@@ -32,4 +32,44 @@ body {
     background-size: cover;
     background-position: top;
     clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+    position: relative;
+}
+
+.logo-box {
+   position: absolute;
+   top: 2rem;
+   left: 2rem;
+}
+
+.logo {
+    height: 2rem;
+    
+}
+.text-box {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.heading-primary {
+    color: white;
+    text-transform: uppercase;
+}
+
+.heading-primary-main {
+    display: block;
+    font-size: 4rem;
+    font-weight: 400;
+    letter-spacing: 2rem;
+    
+}
+
+.heading-primary-sub {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: 0.95rem;
+    
+
 }
